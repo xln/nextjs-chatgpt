@@ -21,4 +21,5 @@ or
 yarn start
 ```
 ---
-open in chrome http://127.0.0.1:3000
+
+打开浏览器访问 http://127.0.0.1:3000
