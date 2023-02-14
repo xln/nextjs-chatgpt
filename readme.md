@@ -2,11 +2,19 @@
 
 step1:
 `
-npm install
+npm install 
+`
+or
+`
+yarn
 `
 
 step2:
 
 `
 npm start
+`
+or
+`
+yarn start
 `
