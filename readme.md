@@ -1,3 +1,5 @@
+# nextjs-chatgpt
+
 基于nextjs react antd的chatgpt
 
 step1:
@@ -18,4 +20,5 @@ or
 ```js
 yarn start
 ```
+---
 open in chrome http://127.0.0.1:3000
