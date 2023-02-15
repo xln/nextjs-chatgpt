@@ -4,21 +4,13 @@
 
 step1:
 ```js
-npm install 
-```
-or
-```js
-yarn
+npm install  
 ```
 
 step2:
 
 ```js
 npm start
-```
-or
-```js
-yarn start
 ```
 ---
 
