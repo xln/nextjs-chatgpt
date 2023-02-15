@@ -22,6 +22,4 @@ yarn start
 ```
 ---
 
-打开浏览器访问 http://127.0.0.1:3000?apikey=
-
-若提示apikey失效，更换apikey即可。
+打开浏览器访问 http://127.0.0.1:3000?apikey=  后面填自己的apikey
