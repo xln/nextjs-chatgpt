@@ -27,7 +27,7 @@ chatgpt__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (a
 async function handler(req, res) {
     const api = new chatgpt__WEBPACK_IMPORTED_MODULE_0__.ChatGPTAPI({
         // apiKey: process.env.OPENAI_API_KEY
-        apiKey: "OHbqOji3VilZQq6IOpGPT3BlbkFJswkP5sw1H2wPtfJ23dli"
+        apiKey: "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"
     });
     try {
         const { parentMessageId , conversationId , question  } = req.query;

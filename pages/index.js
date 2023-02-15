@@ -45,7 +45,7 @@ function HomePage({}) {
             onChange={(e)=>{setInputValue(e.target.value)}}
             value={inputValue}
             onSearch={async(value)=>{
-                if(recordList.length>0&&recordList[recordList.length-1].loading){
+                if(recordList.length>0&&recordList[recordList.length-1].loading||value===''){
                     return;
                 }
                 recordList.push({
