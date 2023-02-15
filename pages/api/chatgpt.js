@@ -3,7 +3,7 @@ import { ChatGPTAPI } from 'chatgpt'
 export default async function  handler(req, res) {
     const api = new ChatGPTAPI({
       // apiKey: process.env.OPENAI_API_KEY
-      apiKey:'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'
+      apiKey:req.query.apiKey
     })
     try{
       const {parentMessageId,conversationId,question} = req.query;
