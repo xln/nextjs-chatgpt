@@ -22,4 +22,4 @@ yarn start
 ```
 ---
 
-打开浏览器访问 http://127.0.0.1:3000?apikey=  后面补全自己的apikey
+打开浏览器访问 http://127.0.0.1:3000?apikey=  后面填写自己的apikey
