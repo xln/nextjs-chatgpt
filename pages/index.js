@@ -7,6 +7,10 @@ async function talk(question,parentMessageId,conversationId){
     if(parentMessageId&&conversationId){
         payload = {...payload,parentMessageId,conversationId}
     }
+    const arr = window.location.search.split('=');
+    if(arr.length>1&&arr[1].length>0){
+        payload.apikey = arr[1];
+    }
     const res = await fetch(`http://${window.location.host}/api/chatgpt?${new URLSearchParams(payload).toString()}`);
     return await res.json();
 }
